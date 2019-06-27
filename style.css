@@ -189,9 +189,9 @@ footer p{
         width:35%;
     }
 
-    .btSlider{
+    /* .btSlider{
         display: none;
-    }
+    } */
 
     .grid-3, .grid-2{
         grid-gap: 20px;
