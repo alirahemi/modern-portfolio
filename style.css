@@ -1,0 +1,414 @@
+body{
+    /* background: rgba(0,0,0,0.9); */
+    background: #3b3b3b;
+    margin: 0px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.smalllogo{
+    display: none;
+}
+
+.slide-show{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0rem 1rem;
+}	
+
+.carousel-item img{
+    /* border-radius: 10px; */
+    border: 1px solid #f4f4f4;
+}
+
+
+
+.showcase .logoNav{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    /* padding: 1rem 1rem; */
+}
+
+.nav{
+    margin-top: 30px;
+}
+
+.nav a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 245, 155);
+
+}
+
+.logo{
+    float: left;
+    height: auto;
+    width: 100px;
+    border-radius: 7px;
+    margin: .5rem 2rem;
+    
+}
+
+.nav-link{
+    color: #f4f4f4;
+
+}
+
+.nav-link:hover{
+    color: #f4f4f4;
+    
+}
+
+.anmeldenbox{
+    float: right;
+    position: relative;
+    top: -30px;
+    margin-right: 30px;
+    /* color: rgb(255, 245, 155); */
+}
+
+.btSlider{
+    position: relative;
+    margin-top: 0;
+    
+}
+
+.carousel-caption{
+    position: relative;
+    top:0px;
+    left: 0px;
+    padding-bottom: 0;
+}
+
+
+/* .showcase::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/bremen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transition: all 1000ms;
+    
+}
+
+.showcase:hover::after{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    transition: all 1000ms;
+} */
+
+/* .showcase:hover .content{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    filter: opacity(0%);
+    -webkit-filter: opacity(0%);
+    transition: all 1000ms;
+} */
+
+.content{
+    /* float: left; */
+    /* display: none; */
+    /* position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: -145px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms; */
+}
+
+/* .clearfix:after {
+        content: ".";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0px;
+    } */
+
+.showcase .giseleFreunde{
+    display: none;
+    /* position: absolute;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    z-index: 1;
+    top:62%;
+    left: 20%;
+    margin-top: 105px;
+    margin-left: -145px;
+    width: 300px;
+    height: 350;
+    text-align: left;
+    filter: opacity(0%);
+    -webkit-filter: opacity(0%); */
+    /* filter: blur(10px);
+    -webkit-filter: blur(10px); */
+    /* transition: all 1000ms; */
+}
+
+.showcase:hover .giseleFreunde{
+    /* content: '';
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    transition: all 1000ms;
+    filter: opacity(100%);
+    -webkit-filter: opacity(100%);
+    transition: all 1000ms; */
+}
+
+.showcase .giseleFreunde #gisele{
+    /* font-size: 1rem; */
+}
+
+section{
+    margin: 2rem 0;
+}
+
+details{
+    font-size: 1rem;
+}
+
+
+
+.content .title{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    color: rgb(255, 245, 155);
+    /* font: bolder; */
+    filter: saturate(150%);
+    border: #3b3b3b 1px solid;
+}
+
+.content .text{
+    line-height: 1.7;
+    margin-top: .7rem;
+    color:#3b3b3b;
+    text-align: justify;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 1rem;
+}
+
+.instaImg{
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-3{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    
+}
+
+.iHome, .copyRight{
+    margin: 0;
+}
+
+footer{
+    padding: 2rem;
+}
+
+footer p{
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.bg-light{
+    background-color: #f4f4f4;
+    color: #3b3b3b;
+}
+
+.bg-light a{
+    text-decoration: none;
+    color: rgb(0, 168, 247);
+}
+.bg-light a:hover{
+    text-decoration: none;
+    color: rgb(0, 168, 247);
+}
+
+.fab, .fas{
+    color: #3b3b3b;
+}
+
+.fa-stamp{
+    color: #f4f4f4;
+
+}
+
+.iHome{
+    color: #3b3b3b;
+}
+
+section .fa-3x:hover, .fa-3x:hover, footer .fa-2x:hover {
+    color: rgb(0, 168, 247);
+}
+
+.imprint h3, #neuigkeiten h3{
+    color: rgb(255, 245, 155);
+}
+
+.imprint a, #neuigkeiten a{
+    color: rgb(255, 245, 155);
+    text-decoration: none;
+}
+
+.sozial-nezwerk{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sozial-nezwerk li{
+    display: inline;
+    margin: 5px;
+}
+
+/* #neuigkeiten .splite{
+    border-bottom: #f4f4f4 dashed 1px;
+} */
+
+
+
+
+
+
+
+
+
+/* small screen */
+@media(max-width: 560px){
+    .showcase::after{
+        height: 4vh;
+        background-position: -25rem;
+        display: block;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        transition: all 1000ms;
+    }
+    
+    
+    .anmeldenbox{
+        display: none;
+    }
+    
+    .content .logo{
+        width:35%;
+    }
+
+    .btSlider{
+        display: none;
+    }
+
+    
+    /* .content .title{
+        width: 80%;
+        font-size: 1.2rem;
+        position: relative;
+        left: 25px;
+    } */
+    
+    .content .text{
+        /* position: relative;
+        top: 60%;
+        width: 250px;
+        left: 7%; */
+        display: none;
+    }
+
+    /* .showcase::after{
+        filter: blur(0);
+    } */
+
+    /* .showcase:hover .giseleFreunde{
+        content: '';
+        font-size: .7rem;
+        top: 25%;
+        left: 43%;
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        transition: all 1000ms;
+        filter: opacity(100%);
+        -webkit-filter: opacity(100%);
+        transition: all 1000ms;
+    } */
+
+    .showcase .giseleFreunde{
+        display: none;
+    }
+    
+    .grid-3, .grid-2{
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .services div{
+        border-bottom:rgb(114, 114, 114) dashed 1px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .logo{
+        position: relative;
+        width: 170px;
+        top: 20px;
+        left: 30%;
+        margin: auto;
+    }
+
+    .anmeldenbox{
+        position: none;
+    }
+
+    .smalllogo{
+        display: inline;
+        
+        width: 200px;
+    }
+
+   
+
+}
+
+/* Landscape */
+@media(max-height:500px){
+    .content .text{
+        display: none;
+    }
+    .content .logo{
+        top: 0;
+    }
+}
+
+@media()
