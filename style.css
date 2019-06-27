@@ -159,6 +159,10 @@ section .fa-3x:hover, .fa-3x:hover, footer .fa-2x:hover {
     margin: 5px;
 }
 
+.folgenText{
+    margin-bottom: 10px;
+}
+
 .iHome{
     color: #3b3b3b;
 }
